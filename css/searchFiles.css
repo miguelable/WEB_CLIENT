@@ -1,0 +1,42 @@
+/* Formato de la barra de progreso */
+
+#memoryBar {
+    border-radius: 1vh;
+    border: 4px solid white;
+    background-color: white;
+    mix-blend-mode: soft-light;
+    width: 50%;
+    height: 30px;
+}
+
+
+/* Separación menu búsqueda */
+
+.menuSpacing {
+    margin: 0px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #515151;
+}
+
+
+/* Da forma al seleccionar la pestaña del tipo de fichero a buscar */
+
+.shadowForm {
+    height: 100%;
+    border-radius: 15px 15px 0px 0px;
+    display: flex;
+    align-items: center;
+}
+
+
+/* Por defecto el texto es el que estará seleccionado 
+Dar más opacidad al elemento seleccionado */
+
+#textShadow {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+#contentImage {
+    display: none;
+}
