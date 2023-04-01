@@ -7,17 +7,17 @@
     <meta name="description" content="Search Files created, open, modify or delate them">
     <meta name="keywords" content="HTML, CSS, JavaScript, SWC, Image Editor, Text Editor">
     <meta name="author" content="Miguel Ferrer and Luar Biurrun">
-    <link href="/img/A.ico" rel="shortcut icon">
-    <link href="/css/searchFiles.css" rel="stylesheet">
-    <link href="/css/alerts.css" rel="stylesheet">
-    <link href="/css/general.css" rel="stylesheet">
+    <link href="../img/A.ico" rel="shortcut icon">
+    <link href="../css/searchFiles.css" rel="stylesheet">
+    <link href="../css/alerts.css" rel="stylesheet">
+    <link href="../css/general.css" rel="stylesheet">
 </head>
 
 <body class="container">
     <div id="searchHeader" class="headerContent">
         <h3 id="searchFileTitle" class="appType">Search Files</h3>
         <button id="closeSearchButton" class="closeButton">
-            <img src="/img/Close.png" alt="close">
+            <img src="../img/Close.png" alt="close">
         </button>
     </div>
     <div id="menuHeader">
@@ -30,30 +30,30 @@
     </div>
     <div id="mainConent" class="backgroundMain">
         <div id="contentText" class="dataContainer">
-            <div class="fileItem">
+            <div id="file1Main" class="fileItem">
                 <div class="textContentDiv">
                     <p class="textFormat">
                         Texto que contiene el objeto, este texto puede tener el contenido que sea necesario.
                     </p>
                 </div>
-                <img src="/img/Info.png" alt="Info.png" class="iconFormat">
+                <img id="enterInfo1" src="../img/Info.png" alt="Info.png" class="iconFormat">
                 <h5 class="textTitle">Text.txt</h5>
-                <img src="/img/Trash.png" alt="Trash.png" class="iconFormat">
+                <img src="../img/Trash.png" alt="Trash.png" class="iconFormat">
             </div>
-            <div class="fileItem">
+            <div id="file1Info" class="fileItem">
                 <div class="InfoContentDiv">
                     <p class="dataContent"><strong>Name:</strong> File1</p>
                     <p class="dataContent"><strong>Extension:</strong> txt</p>
                     <p class="dataContent"><strong>Size:</strong> 150 bytes</p>
                     <p class="dataContent"><strong>Date:</strong> 12:15:25 27/02/2023</p>
                 </div>
-                <img src="/img/Close.png" alt="Info.png" class="iconFormat">
+                <img id="exitInfo1" src="../img/Close.png" alt="Info.png" class="iconFormat">
                 <h5 class="textTitle">Text.txt</h5>
-                <img src="/img/Trash.png" alt="Trash.png" class="iconFormat">
+                <img src="../img/Trash.png" alt="Trash.png" class="iconFormat">
             </div>
         </div>
         <div id="contentImage" class="dataContainer">
-            <div class="fileItem">
+            <div id="image1Main" class="fileItem">
                 <div class="ImageContentDiv">
                     <div id="imageArea" class="boxBorder">
                         <div class="box"></div>
@@ -122,20 +122,20 @@
                         <div class="box"></div>
                     </div>
                 </div>
-                <img src="/img/Info.png" alt="Info.png" class="iconFormat">
+                <img id="enterInfo1" src="../img/Info.png" alt="Info.png" class="iconFormat">
                 <h5 class="textTitle">Image.img</h5>
-                <img src="/img/Trash.png" alt="Trash.png" class="iconFormat">
+                <img src="../img/Trash.png" alt="Trash.png" class="iconFormat">
             </div>
-            <div class="fileItem">
+            <div id="image1Info" class="fileItem">
                 <div class="InfoContentDiv">
                     <p class="dataContent"><strong>Name:</strong> Image</p>
                     <p class="dataContent"><strong>Extension:</strong> img</p>
                     <p class="dataContent"><strong>Size:</strong> 5 bytes</p>
                     <p class="dataContent"><strong>Date:</strong> 12:15:25 27/02/2023</p>
                 </div>
-                <img src="/img/Close.png" alt="Info.png" class="iconFormat">
+                <img id="exitInfo1" src="../img/Close.png" alt="Info.png" class="iconFormat">
                 <h5 class="textTitle">Image.img</h5>
-                <img src="/img/Trash.png" alt="Trash.png" class="iconFormat">
+                <img src="../img/Trash.png" alt="Trash.png" class="iconFormat">
             </div>
         </div>
     </div>
@@ -144,26 +144,26 @@
     </div>
     <nav id="barLauncher" class="backgroundBottom">
         <button id="searchButton" class="appButton">
-            <img id="searchImage" src="/img/View.png" alt="View.png">
+            <img id="searchImage" src="../img/View.png" alt="View.png">
         </button>
         <button id="trashButton" class="appButton">
-            <img id="trashImage" src="/img/Trash.png" alt="Trash.png">
+            <img id="trashImage" src="../img/Trash.png" alt="Trash.png">
         </button>
         <button id="textEditorButton" class="appButton">
-            <img id="textImage" src="/img/TXT.png" alt="TextEditor.png">
+            <img id="textImage" src="../img/TXT.png" alt="TextEditor.png">
         </button>
         <button id="imageEditorButton" class="appButton">
-            <img id="editImage" src="/img/IMG.png" alt="ImageEditor.png">
+            <img id="editImage" src="../img/IMG.png" alt="ImageEditor.png">
         </button>
     </nav>
     <div id="hourInfo" class="backgroundBottom">
         <p id="hour" class="dayInfo"></p>
         <p id="date" class="dayInfo"></p>
     </div>
-    <script src="/js/alerts.js" rel="script"></script>
-    <script src="/js/searchFiles.js" rel="script"></script>
-    <script src="/js/memorybar.js" rel="script"></script>
-    <script src="/js/pageflow.js" rel="script"></script>
+    <script src="../js/alerts.js" rel="script"></script>
+    <script src="../js/searchFiles.js" rel="script"></script>
+    <script src="../js/memorybar.js" rel="script"></script>
+    <script src="../js/pageflow.js" rel="script"></script>
 
 </body>
 

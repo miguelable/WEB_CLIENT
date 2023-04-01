@@ -11,7 +11,7 @@
     grid-template-columns: 2fr 1.5fr 2fr;
     grid-template-rows: 50px 40px auto max-content;
     /* Imagen de fondo*/
-    background-image: url("/img/fondo.jpg");
+    background-image: url("../img/fondo.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;

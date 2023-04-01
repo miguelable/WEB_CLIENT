@@ -12,13 +12,25 @@ let isErase = false;
 let boxes = Array.from(areaImg);
 
 var isImageEditor = sessionStorage.getItem("isImage");
-var colorData = JSON.parse(sessionStorage.getItem('colors')) || [];
+const colorData = JSON.parse(sessionStorage.getItem('colors')) || [];
+
+const imageSize = document.getElementById('imageSize');
+const imageName = document.getElementById('imageName');
 
 //comprobar si la pantalla se había abierto o si se abre nueva
 if (isImageEditor == "true") {
+    let imageFileSize = 0;
     for (let i = 0; i < boxes.length; i++) {
         boxes[i].style.backgroundColor = colorData[i];
+        //contador de tamaño del fichero de imagen
+        if (colorData[i] != "") {
+            imageFileSize++;
+        }
     }
+    //cambiar el valor del tamaño del fichero y el nombre
+    imageFileSize += imageName.firstChild.length - 3
+    imageSize.innerText = imageFileSize + " bytes";
+
 }
 
 

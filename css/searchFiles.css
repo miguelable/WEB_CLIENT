@@ -45,10 +45,9 @@ Dar más opacidad al elemento seleccionado */
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    align-items: left;
     justify-content: left;
     width: 90%;
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 .fileItem {
@@ -93,7 +92,7 @@ Dar más opacidad al elemento seleccionado */
 }
 
 .InfoContentDiv {
-    margin-top: 7px;
+    margin-top: 8px;
     width: 90%;
     height: 80%;
     text-align: left;
@@ -125,7 +124,6 @@ Dar más opacidad al elemento seleccionado */
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    align-items: left;
     justify-content: center;
 }
 
@@ -133,4 +131,12 @@ Dar más opacidad al elemento seleccionado */
     width: 12px;
     height: 12px;
     border: 1px solid black;
+}
+
+#file1Info {
+    display: none;
+}
+
+#image1Info {
+    display: none;
 }
